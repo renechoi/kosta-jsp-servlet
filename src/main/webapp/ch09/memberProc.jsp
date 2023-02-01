@@ -2,7 +2,7 @@
 <% 
 		request.setCharacterEncoding("UTF-8");
 %>
-<jsp:useBean id="regBean" class="MemberBean2"/>
+<jsp:useBean id="regBean" class="com.example.jspservlet.practicejsp.ch09.MemberBean"/>
 <jsp:setProperty name="regBean" property="*"  />
 <html>
 <head>
